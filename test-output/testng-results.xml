@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-27T13:25:10 EST" name="Suite" finished-at="2024-01-27T13:25:48 EST" duration-ms="38241">
+    <groups>
+    </groups>
+    <test started-at="2024-01-27T13:25:10 EST" name="accountinfo" finished-at="2024-01-27T13:25:48 EST" duration-ms="38241">
+      <class name="Selenium_Project.Framework_Project_creation.AppTest">
+        <test-method is-config="true" signature="browser()[pri:0, instance:Selenium_Project.Framework_Project_creation.AppTest@50029372]" started-at="2024-01-27T13:25:10 EST" name="browser" finished-at="2024-01-27T13:25:32 EST" duration-ms="22190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="Programming(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Selenium_Project.Framework_Project_creation.AppTest@50029372]" started-at="2024-01-27T13:25:32 EST" name="Programming" finished-at="2024-01-27T13:25:47 EST" duration-ms="15309" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sarafina]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[azam]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rafsu@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[jamaica]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[queens]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[NY]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Programming -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Selenium_Project.Framework_Project_creation.AppTest@50029372]" started-at="2024-01-27T13:25:47 EST" name="teardown" finished-at="2024-01-27T13:25:48 EST" duration-ms="631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Selenium_Project.Framework_Project_creation.AppTest -->
+    </test> <!-- accountinfo -->
+  </suite> <!-- Suite -->
+</testng-results>

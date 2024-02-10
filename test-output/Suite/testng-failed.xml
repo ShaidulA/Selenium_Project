@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="accountinfo(failed)">
+    <parameter name="Firstname" value="shaidul"/>
+    <parameter name="zip" value="12345"/>
+    <parameter name="country" value="USA"/>
+    <parameter name="phone" value="123456789"/>
+    <parameter name="city" value="queens"/>
+    <parameter name="Lastname" value="azam"/>
+    <parameter name="state" value="NY"/>
+    <parameter name="add2" value=" "/>
+    <parameter name="add1" value="jamaica"/>
+    <parameter name="email" value="shaidul@gmail.com"/>
+    <classes>
+      <class name="Selenium_Project.Framework_Project_creation.AppTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="Programming" invocation-numbers="0"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- Selenium_Project.Framework_Project_creation.AppTest -->
+    </classes>
+  </test> <!-- accountinfo(failed) -->
+</suite> <!-- Failed suite [Suite] -->
